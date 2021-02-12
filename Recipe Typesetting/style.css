@@ -1,0 +1,100 @@
+/*Define your font styles here*/
+@font-face {
+	font-family: 'Ramtul';
+	src: url('fonts/Ramtul.tff') format('tff');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'SpartanMB-Light';
+	src: url('fonts/SpartanMB-Light.otf') format('otf');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'SpartanMB-Bold';
+	src: url('fonts/SpartanMB-Bold.otf') format('otf');
+	font-weight: normal;
+    font-style: normal;
+ }
+
+
+/*Style your page here*/
+html {
+	background-color: #FAFAF8;
+}
+
+h1{
+	font-family: 'Ramtul';
+	font-size: 8vh;
+	margin-left: 30%;
+	color: black;
+}
+h2 {
+	font-family: 'SpartanMB-Bold';
+	letter-spacing: 2px;
+	color: #215E32;
+
+}
+p {
+	font-family: 'SpartanMB-Bold';
+}
+
+
+li {
+	font-family: 'SpartanMB-Light';
+	font-size: 20px;
+
+}
+#cake1 img {
+	position: absolute;
+	width: 20vw;
+	left: 20vw;
+	top: 13vw;
+
+}
+#prep {
+	margin-left: 41vw;
+	margin-top: 1vw;
+	font-size:20px;
+	letter-spacing: 2px;
+	list-style: none;
+	line-height: 1.4;
+
+}
+#ingredients {
+	margin-left: 20vw;
+	margin-top: 5vw;
+	line-height: 1.8;
+
+
+}
+#steps {
+	margin-left:20vw;
+	margin-right: 20vw;
+	line-height: 1.8;
+	margin-bottom: 5vw;
+}
+.end {
+	color: white;
+	text-decoration: underline wavy white;
+	color: #215E32;
+}
+blockquote {
+	margin-top: 4vw;
+	margin-left: 43vw;
+	margin-right: 20vw;
+	font-size: 30px;
+	line-height: 1.5;
+	color: #215E32;
+}
+#ingredients li {
+	line-height: 2.1;
+	letter-spacing: 1.5px;
+}
+#steps li {
+	list-style-type: decimal-leading-zero
+	line-height: 2.1;
+	letter-spacing: 1.5px;
+}
